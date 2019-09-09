@@ -6,9 +6,7 @@
 <li>Import county shapefile and census population data</li>
 <li>Querytweets per capita for each county</li>
 </ul>
-</br>
 ![alttag](https://github.com/harrydurbin/tweet-data/blob/master/img/points.png)
-<br>
 caption: geo-tagged tweets in bay area (color per cluster)
 
 
