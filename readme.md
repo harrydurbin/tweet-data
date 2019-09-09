@@ -7,7 +7,7 @@
 <li>Querytweets per capita for each county</li>
 </ul>
 <br>
-<img src="../master/img/points.png?raw=true" width="100" height="100" />
+<img src="../master/img/points.png?raw=true" width="100"/>
 ![alttag](https://github.com/harrydurbin/tweet-data/blob/master/img/points.png)
 <br>
 caption: geo-tagged tweets in bay area (color per cluster)
