@@ -7,7 +7,7 @@
 <li>Query tweets per capita for each county</li>
 </ul>
 See iPython Notebooke code <a href="https://github.com/harrydurbin/tweet-data/blob/master/tweets.ipynb">here</a>.
-<br>
+<br><br>
 Figure 1: Geo-tagged tweets in bay area (color per cluster)
 <img src="../master/img/points.png?raw=true" width="100%"/>
 <br>
