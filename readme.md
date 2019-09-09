@@ -7,8 +7,8 @@
 <li>Querytweets per capita for each county</li>
 </ul>
 ![alttag](https://github.com/harrydurbin/tweet-data/blob/master/img/points.png)
-caption: geo-tagged tweets in bay area (color per cluster)
 
+<br>caption: geo-tagged tweets in bay area (color per cluster)
 
 <br></br>
 For clustering, a hierarchical approach was used as a work around to memory limitations. One million samples would be too much for DBSCAN to run so points were first clusters broadly using MiniBatch Kmeans to quickly breakdown data into a minimum amount of cluster groups. The MiniBatch Kmeans method works by setting an initial cluster value and iteratively setting a centroid until it converges sufficiently. A limitation for Minibatch Kmeans, is that the number of clusters are arbitrarily picked. Alternatively, the DBSCAN cluster algorithm determines the number of clusters based on a stipulated distance (epsilon). After the initial breakdown of clusters established by Kmeans, DBSCAN was run on each Kmeans cluster to determine a final set of clusters. Clusters containing less than 1,000 tweets were considered insignificant and eliminated.
